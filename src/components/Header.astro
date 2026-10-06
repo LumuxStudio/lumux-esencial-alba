@@ -1,0 +1,5 @@
+---
+import Mark from './Mark.astro';
+import {site} from '../lib/content';
+---
+<header class="masthead"><div class="masthead-top"><span class="masthead-descriptor">{site.brand.descriptor}</span><a class="wordmark" href="#inicio" aria-label={`${site.brand.name}, inicio`}><Mark /><span>{site.brand.name}</span></a><a class="masthead-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></div><div class="masthead-bottom"><p>{site.brand.tagline}</p><nav class="desktop-nav" aria-label="Navegación principal">{site.nav.map(n=><a href={n.href}>{n.label}</a>)}</nav><details class="mobile-menu"><summary>Menú <span aria-hidden="true">+</span></summary><nav aria-label="Navegación principal">{site.nav.map(n=><a href={n.href}>{n.label}</a>)}</nav></details></div></header>

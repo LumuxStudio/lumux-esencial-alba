@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import raw from '../src/content/site.es.json';
+import {contentSchema} from '../src/lib/content';
+const copy=()=>structuredClone(raw);
+test('contenido completo válido',()=>assert.equal(contentSchema.safeParse(raw).success,true));
+test('acepta personalizar el nombre de la marca',()=>{const value=copy();value.brand.name='Clínica Aurora';const parsed=contentSchema.parse(value);assert.equal(parsed.brand.name,'Clínica Aurora');});
+test('rechaza enlace ejecutable',()=>{const value=copy();value.nav[0].href='javascript:alert(1)';assert.equal(contentSchema.safeParse(value).success,false);});
+test('rechaza enlace a sección ausente',()=>{const value=copy();value.sections=value.sections.filter(s=>s!=='atencion');assert.equal(contentSchema.safeParse(value).success,false);});
+test('rechaza secciones duplicadas',()=>{const value=copy();value.sections[1]=value.sections[2];assert.equal(contentSchema.safeParse(value).success,false);});
+test('rechaza imágenes remotas',()=>{const value=copy();value.hero.image='https://example.com/photo.webp';assert.equal(contentSchema.safeParse(value).success,false);});
+test('rechaza HTML en texto editable',()=>{const value=copy();value.hero.text='<script>alert(1)</script>';assert.equal(contentSchema.safeParse(value).success,false);});
+test('IDs de atención deben ser únicos',()=>{const value=copy();value.attention.items[1].id=value.attention.items[0].id;assert.equal(contentSchema.safeParse(value).success,false);});

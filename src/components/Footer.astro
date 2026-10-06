@@ -1,0 +1,5 @@
+---
+import Mark from './Mark.astro';
+import {site} from '../lib/content';
+---
+<footer class="site-footer"><div class="footer-main"><a class="footer-brand" href="#inicio" aria-label={`${site.brand.name}, volver al inicio`}><Mark/><span>{site.brand.name}</span></a><p>{site.brand.tagline}</p><div class="footer-links">{site.sections.includes('preguntas')&&<a href="#preguntas">Preguntas frecuentes</a>}<a href="#contacto">Contacto</a></div></div><div class="footer-colophon"><p>{site.footer.legal}</p><p>{site.footer.text}<br/>© 2026 · Demostración</p></div></footer>

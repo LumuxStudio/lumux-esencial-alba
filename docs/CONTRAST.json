@@ -1,0 +1,50 @@
+{
+  "method": "WCAG relative luminance; OKLCH tokens converted to linear sRGB and gamut-clamped",
+  "pairs": [
+    {
+      "text": "ink",
+      "background": "paper",
+      "ratio": 14.15
+    },
+    {
+      "text": "muted",
+      "background": "paper",
+      "ratio": 6.99
+    },
+    {
+      "text": "muted",
+      "background": "surface",
+      "ratio": 6.41
+    },
+    {
+      "text": "accent",
+      "background": "paper",
+      "ratio": 6.49
+    },
+    {
+      "text": "accent-ink",
+      "background": "accent",
+      "ratio": 6.49
+    },
+    {
+      "text": "paper",
+      "background": "ink",
+      "ratio": 14.15
+    },
+    {
+      "text": "error",
+      "background": "paper",
+      "ratio": 7.64
+    },
+    {
+      "text": "success",
+      "background": "paper",
+      "ratio": 9.14
+    },
+    {
+      "text": "focus",
+      "background": "paper",
+      "ratio": 6.49
+    }
+  ]
+}

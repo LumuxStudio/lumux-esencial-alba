@@ -1,0 +1,174 @@
+{
+  "brand": {
+    "name": "ALBA",
+    "descriptor": "Clínica de atención integral",
+    "tagline": "Escuchar. Orientar. Acompañar."
+  },
+  "seo": {
+    "title": "ALBA · Atención integral con espacio para ti | Demo",
+    "description": "Concepto de clínica de atención integral. Una presentación clara de la atención, la primera visita y el contacto. Proyecto independiente Lumux Esencial."
+  },
+  "nav": [
+    {
+      "label": "Atención",
+      "href": "#atencion"
+    },
+    {
+      "label": "Primera visita",
+      "href": "#primera-visita"
+    },
+    {
+      "label": "Nuestra forma",
+      "href": "#forma"
+    },
+    {
+      "label": "Contacto",
+      "href": "#contacto"
+    }
+  ],
+  "sections": [
+    "inicio",
+    "atencion",
+    "primera-visita",
+    "forma",
+    "espacio",
+    "preguntas",
+    "contacto"
+  ],
+  "hero": {
+    "label": "Un comienzo con calma",
+    "lines": [
+      "Tu salud,",
+      "con espacio",
+      "para ti."
+    ],
+    "text": "Una atención que empieza por escucharte. Claridad para entender el siguiente paso y tiempo para hacer tus preguntas.",
+    "cta": {
+      "label": "Conocer la atención",
+      "href": "#atencion"
+    },
+    "secondary": {
+      "label": "Preparar una consulta",
+      "href": "#contacto"
+    },
+    "image": "/images/clinica.webp",
+    "alt": "Sala de espera luminosa, con asientos azules y plantas. Fotografía de stock ilustrativa.",
+    "caption": "Un espacio para pausar. Fotografía ilustrativa."
+  },
+  "attention": {
+    "title": "Un punto de partida. Una mirada completa.",
+    "text": "La propuesta de ALBA reúne distintas maneras de acompañar tu cuidado. Explora cada área para conocer su enfoque.",
+    "items": [
+      {
+        "id": "general",
+        "title": "Atención general",
+        "text": "Una conversación inicial para conocer el motivo de consulta y organizar la atención que corresponda.",
+        "detail": "Un primer encuentro para organizar la conversación."
+      },
+      {
+        "id": "prevencion",
+        "title": "Orientación preventiva",
+        "text": "Un espacio para conversar sobre el cuidado cotidiano y las preguntas que quieras llevar a una consulta.",
+        "detail": "Preguntas cotidianas, atención individual."
+      },
+      {
+        "id": "seguimiento",
+        "title": "Seguimiento y continuidad",
+        "text": "Dar contexto al siguiente encuentro, retomar tus preguntas y mantener claridad sobre el proceso de atención.",
+        "detail": "Contexto y claridad entre encuentros."
+      },
+      {
+        "id": "coordinacion",
+        "title": "Coordinación de atención",
+        "text": "Información sobre modalidades, organización de la primera visita y canales de contacto.",
+        "detail": "Una forma sencilla de iniciar el contacto."
+      }
+    ]
+  },
+  "visit": {
+    "title": "La primera visita empieza por conocernos.",
+    "text": "Un recorrido sencillo para que puedas llegar con tus preguntas y entender cómo continúa la conversación.",
+    "steps": [
+      {
+        "label": "Antes",
+        "title": "Contarnos qué necesitas",
+        "text": "Pregunta por las modalidades y la organización de la visita. El primer contacto es para coordinar, sin compartir información clínica en este formulario."
+      },
+      {
+        "label": "Durante",
+        "title": "Escuchar y conversar",
+        "text": "La atención propone un espacio para expresar tus preguntas y comprender las indicaciones del profesional correspondiente."
+      },
+      {
+        "label": "Después",
+        "title": "Entender el siguiente paso",
+        "text": "Cerrar la conversación con claridad sobre cómo continuar el contacto y preparar un próximo encuentro, cuando corresponda."
+      }
+    ],
+    "note": "Escuchar, conversar y entender cómo continuar."
+  },
+  "approach": {
+    "title": "Cuidar también es una forma de estar.",
+    "text": "La propuesta se sostiene en algo sencillo: que una persona pueda sentirse escuchada, entender lo que sucede y participar en la conversación.",
+    "values": [
+      {
+        "title": "Escucha",
+        "text": "Empezar por la persona y por las preguntas que trae consigo."
+      },
+      {
+        "title": "Claridad",
+        "text": "Explicar la organización de la atención con palabras comprensibles."
+      },
+      {
+        "title": "Respeto",
+        "text": "Dar espacio a cada conversación, con un trato considerado."
+      },
+      {
+        "title": "Continuidad",
+        "text": "Mantener el contexto y la orientación entre un encuentro y el siguiente."
+      }
+    ]
+  },
+  "space": {
+    "title": "Un lugar que deja respirar.",
+    "text": "Luz, orden y una escala cercana. La identidad de ALBA imagina un entorno sereno para la atención.",
+    "image": "/images/espacio.webp",
+    "alt": "Escritorio de consulta con estetoscopio, silla y carpetas. Fotografía de stock ilustrativa.",
+    "caption": "Ambiente de referencia. Fotografía ilustrativa."
+  },
+  "faq": {
+    "title": "Antes de dar el primer paso.",
+    "text": "Respuestas para comenzar la conversación con claridad.",
+    "items": [
+      {
+        "question": "¿Cómo comienza la primera visita?",
+        "answer": "La propuesta comienza con una conversación para conocer el motivo de consulta y organizar la atención que corresponda."
+      },
+      {
+        "question": "¿Qué puedo preguntar en el primer contacto?",
+        "answer": "Puedes plantear dudas sobre modalidades o la organización de una visita. La información clínica se comparte por el canal que indique el profesional correspondiente."
+      },
+      {
+        "question": "¿Puedo consultar por otra persona?",
+        "answer": "El primer contacto también puede servir para pedir información general y conocer cómo se organiza la atención."
+      },
+      {
+        "question": "¿El formulario confirma una cita?",
+        "answer": "Esta es una demostración de diseño. El formulario permite revisar un mensaje localmente, pero no envía solicitudes ni confirma citas."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Empecemos con una conversación.",
+    "text": "Consulta por la atención, las modalidades o la organización de una visita.",
+    "email": "hola@example.com",
+    "note": "Demostración. El formulario no envía ni guarda datos.",
+    "messageNote": "Usa este campo para coordinación. No incluyas información clínica.",
+    "submit": "Revisar solicitud",
+    "success": "Solicitud revisada. Esta demostración no ha enviado ningún mensaje ni confirmado una cita."
+  },
+  "footer": {
+    "text": "Una base Lumux Esencial · Proyecto independiente · v1.0",
+    "legal": "ALBA es una marca ficticia. Contenido e imágenes ilustrativos; no representan una clínica, profesionales o servicios confirmados."
+  }
+}

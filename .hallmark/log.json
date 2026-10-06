@@ -1,0 +1,5 @@
+{
+  "runs":[{
+    "date":"2026-10-04","scope":"project","project":"salud-alba","genre":"editorial institutional","macrostructure":"Split Studio","theme":"custom cool-white","nav":"N6 masthead","footer":"Ft1 colophon","fonts":["Manrope Variable"],"anchorHue":266,"motion":"selected once-only 20px/0.5s GSAP entrances; native scrolling","references":["https://reckoner.com/","https://leome-and-partners.com/","https://nexstudio.tech/"],"critique":{"philosophy":5,"hierarchy":5,"execution":4,"specificity":5,"restraint":5,"variety":5},"note":"Visual browser QA belongs to the parent task. No fabricated clinical proof."
+  }]
+}
